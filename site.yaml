@@ -1,0 +1,14 @@
+application: iwillascend.org
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: '/'
+  static_files: 'index.html index.htm readme.txt readme.markdown readme.md'
+  upload: '.*'
+- url: '/test/'
+  static_files: 'index.html index.htm readme.txt readme.markdown readme.md'
+  upload: '.*'
+- url: '/'
+  static_dir: '/'
