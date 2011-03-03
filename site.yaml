@@ -2,12 +2,15 @@ handlers:
 - url: '/'
   static_files: 'index.html index.htm readme.txt readme.markdown readme.md'
   upload: '.*'
-- url: '/'
-  static_dir: '/'
-  
+
 - url: '/test/'
   static_files: 'test/index.html'
   upload: '.*'
 - url: '/test'
   static_files: 'test/index.html'
   upload: '.*'
+  
+  
+- url: '/'
+  static_dir: '/'
+  
